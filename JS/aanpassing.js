@@ -5,8 +5,8 @@ var testDiv = document.getElementById("testDiv");
 testDiv.innerHTML = "dit is een stuk tekst.";
 
 var knop = document.getElementById("knop")
-var tekst1 = "school is leuk.";
-var tekst2 = "school is niet leuk.";
+var tekst1 = "school is tof lol.";
+var tekst2 = "school is kanker.";
 var state = 0;
 //Event listener toevoegen aan een element 
 knop.addEventListener("click", function() {

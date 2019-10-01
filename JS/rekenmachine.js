@@ -11,28 +11,28 @@ var uitvoer = document.getElementById("uitvoer")
 btnSom.addEventListener("click", function() {
     let resultaat = parseInt(getal1.value) + parseInt(getal2.value); 
     let paragraph = createParagraph();
-    paragraph.innerHTML = "De som van" + getal1.value + " en " +getal2.value + " is " + resultaat;
+    paragraph.innerHTML = "De som van " + getal1.value + " en " +getal2.value + " is " + resultaat;
     uitvoer.appendChild(paragraph)
 });
 
 btnVerschil.addEventListener("click", function() {
     let resultaat = parseInt(getal1.value) - parseInt(getal2.value); 
     let paragraph = createParagraph();
-    paragraph.innerHTML = "De Verschil van" + getal1.value + " en " +getal2.value + " is " + resultaat;
+    paragraph.innerHTML = "De Verschil van " + getal1.value + " en " +getal2.value + " is " + resultaat;
     uitvoer.appendChild(paragraph)
 });
 
 btnProduct.addEventListener("click", function() {
     let resultaat = parseInt(getal1.value) * parseInt(getal2.value); 
     let paragraph = createParagraph();
-    paragraph.innerHTML = "De Product van" + getal1.value + " en " +getal2.value + " is " + resultaat;
+    paragraph.innerHTML = "De Product van " + getal1.value + " en " +getal2.value + " is " + resultaat;
     uitvoer.appendChild(paragraph)
 });
 
 btnQuotient.addEventListener("click", function() {
     let resultaat = parseInt(getal1.value) / parseInt(getal2.value); 
     let paragraph = createParagraph();
-    paragraph.innerHTML = "De Quotient van" + getal1.value + " en " +getal2.value + " is " + resultaat;
+    paragraph.innerHTML = "De Quotient van " + getal1.value + " en " +getal2.value + " is " + resultaat;
     uitvoer.appendChild(paragraph)
 });
 
