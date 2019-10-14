@@ -15,9 +15,19 @@ window.onload = function() {
 }
 
 btnBalsport.addEventListener("click", function() {
-    
+    let sport = sportKeuze.innerHTML;
+    for(var i = 0; i < balsportArray.length; i++){
+        if(sport === balsportArray[i]){
+            alert("goed zo!")
+        }
+    }
 });
 
 btnGeenBalsport.addEventListener("click", function() {
-    
+    let sport = sportKeuze.innerHTML;
+     for(var i = 0; i < geenBalsportArray.length; i++){
+        if(sport === geenBalsportArray[i]){
+            alert("YOU TRASH!")
+        }
+     }
 });
