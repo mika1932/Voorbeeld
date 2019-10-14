@@ -1,16 +1,17 @@
-// element opvragen uit een html-pagina
+//element opvragen uit de html-pagina
 var testDiv = document.getElementById("testDiv");
 
-//aanpassen van wat er in een element staat 
-testDiv.innerHTML = "dit is een stuk tekst.";
+//aanpassen van wat er in een element staat
+testDiv.innerHTML = "Dit is een stuk tekst.";
 
-var knop = document.getElementById("knop")
-var tekst1 = "school is tof lol.";
-var tekst2 = "school is kanker.";
+var knop = document.getElementById("knop");
+var tekst1 = "School is leuk.";
+var tekst2 = "School is niet leuk.";
 var state = 0;
-//Event listener toevoegen aan een element 
+
+//Event listener(click) toevoegen aan een element
 knop.addEventListener("click", function() {
-    if(state === 0){
+    if(state === 0) {
         testDiv.innerHTML = tekst2;
         state = 1;
     }
@@ -18,8 +19,7 @@ knop.addEventListener("click", function() {
         testDiv.innerHTML = tekst1;
         state = 0;
     }
-}); 
-
+});
 
 
 
